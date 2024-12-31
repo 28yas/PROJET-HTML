@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King </title>
+    <!-- link:css-->
+    <link rel="stylesheet" href="projet1.css">
+    <script src="https://kit.fontawesome.com/f141b4eaf1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header -->
+     <header>
+        <div class="menu">
+            <img src="imageP1/menu.png" class="menu_icons">
+            <ul>
+                <li><a href="#">Notre carte </a></li>
+                <li><a href="#">le coin famille </a></li>
+                <li><a href="#">recutez-nous !</a></li>
+                <li><a href="#">burger Kara</a></li>
+            </ul>
+        </div>
+        <img src="imageP1/burger-king.png" class="logo ">
+        <!-- div.header-end  -->
+         <div class="header-end">
+            <i class="fa-solid fa-location-dot"></i>
+            <i class="fa-solid fa-crown">
+                <div class="login">
+                    <button><span>se connecter </span></button>
+                        <hr>
+                        <p>Vous n'avez pas encore de compter ?</p>
+                        <button><span>rejoignez le Kingdom </span></button>
+                </div>
+            </i>
+            <button><span>Click & collect </span><img src="imageP1/click_collect.png"></button>
+         </div>
+     </header>
+     <!-- header -->
+
+     <!-- home -->
+     <section class="home"><button><samp>découvrez-le!</samp></button>
+    </section>
+        <!-- home -->
+
+        <!--foods-->
+        <section class="foods">
+            <h1>chaud bouillant </h1>
+            <p>Découvrez les actualités Burger King</p>
+            <div class="foods-list">
+                <div class="box">
+                    <img src="imageP1/img2.webp" >
+                    <h3>désserts glacés</h3>
+                </div>
+                <div class="box">
+                    <img src="imageP1/img3.webp" >
+                    <h3>en savoir plus</h3>
+                </div>
+                <div class="box">
+                    <img src="imageP1/img4.webp" >
+                    <h3>en ce moment</h3>
+                </div>
+            </div>
+        </section>
+        <!--foods-->
+
+        <!--fidelity prog-->
+        <section class="fidelity_prog">
+            <div class="div1">
+                <img src="imageP1/img5.png">
+                <button><span>rejoindre</span></button>
+            </div>
+            <div class="div2">
+                <img src="imageP1/img6.png">
+            </div>
+            <div class="div3">
+                <img src="imageP1/img7.png">
+                <button><span>voir tous les avantages </span></button>
+            </div>
+        </section>
+        <!--fidelity prog-->
+
+        <!--little food-->
+        <h1>une petite ou grosse faim ?🍔 </h1> <!-- alt+v-->
+        <div class="little-food_box">
+            <div class="box">
+                <h3>King nuggets</h3>
+                <img src="imageP1/img9.webp">
+            </div>
+            <div class="box">
+                <h3>King fusion lion </h3>
+                <img src="imageP1/img10.webp">
+            </div>
+            <div class="box">
+                <h3>chicken louisiane<br>steakhouse</h3>
+                <img src="imageP1/img11.webp">
+            </div>
+            <div class="box">
+                <h3>double steakhouse</h3>
+                <img src="imageP1/img12.webp">
+            </div>
+        </div>
+        <!--little food-->
+
+        <!--footer-->
+        <footer>
+            <div class="div1">
+                <p>Qui nous aime nous suives !</p>
+                <div class="icones_social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <p>King dans votre poche </p>
+                <div>
+                    <img src="imageP1/app_store.png">
+                    <img src="imageP1/play_store.png">
+                </div>
+                 
+            </div>
+            <hr>
+            <div class="div2">
+                <div>
+                    <h3>produit </h3>
+                    <ul>
+                        <a href="#">Catalogue produit</a>
+                        <a href="#">Nos burger </a>
+                        <a href="#">Nos menu </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>famille </h3>
+                    <ul>
+                        <a href="#">Catalogue produit</a>
+                        <a href="#">Nos burger </a>
+                        <a href="#">Nos menu </a>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3>servise connectés</h3>
+                    <ul>
+                        <a href="#">Catalogue produit</a>
+                        <a href="#">Nos burger </a>
+                        <a href="#">Nos menu </a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>information légals</h3>
+                    <ul>
+                        <a href="#">Catalogue produit</a>
+                        <a href="#">Nos burger </a>
+                        <a href="#">Nos menu </a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="div3">
+                <p>Pour votre santé , mangez au mois cinq fruits et légumes par jour. www.mangerbouger.fr</p>
+                <p>&copy;2024 fraiz Dev</p>
+            </div>
+        </footer>
+        <!--footer-->
+
+
+        <script>
+            // Fonction pour afficher une alerte lors du clic sur le bouton "découvrez-le!"
+            function showAlert() {
+                alert("Bienvenue chez Burger King ! Découvrez nos offres spéciales !");
+            }
+        
+            // Fonction pour afficher/masquer le menu de connexion
+            function toggleLoginMenu() {
+                const loginMenu = document.querySelector('.login');
+                if (loginMenu) {
+                    loginMenu.style.display = loginMenu.style.display === 'flex' ? 'none' : 'flex';
+                }
+            }
+        
+            // Ajouter un écouteur d'événements au bouton "découvrez-le!"
+            document.addEventListener("DOMContentLoaded", function() {
+                const discoverButton = document.querySelector(".home button");
+                if (discoverButton) {
+                    discoverButton.addEventListener("click", showAlert);
+                }
+        
+                // Ajouter un écouteur d'événements à l'icône de couronne pour afficher le menu de connexion
+                const crownIcon = document.querySelector('.fa-crown');
+                if (crownIcon) {
+                    crownIcon.addEventListener("click", toggleLoginMenu);
+                }
+                
+                // Fermer le menu de connexion si l'utilisateur clique en dehors
+                document.addEventListener("click", function(event) {
+                    if (!crownIcon.contains(event.target) && !loginMenu.contains(event.target)) {
+                        loginMenu.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+        
+</body>
+</html>
